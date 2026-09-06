@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Akileash Saravanan</title>
+    <meta
+      name="description"
+      content="Projects by Akileash Saravanan — Sylla Sync, AkiPad, SignBridge, ENCMP flashcards, and more."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Esteban&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="photography.html">Photography</a></li>
+        </ul>
+      </nav>
+      <a class="site-title" href="index.html">Akileash Saravanan</a>
+    </header>
+
+    <main class="page-work">
+      <ul class="work-grid">
+        <li class="work-card">
+          <button
+            type="button"
+            class="work-tile work-tile--7 project-trigger"
+            data-project="centremass"
+            aria-haspopup="dialog"
+          >
+            <span class="work-tile__label">Centre Mass</span>
+            <span class="work-tile__meta">In progress · PID · Robotics</span>
+          </button>
+        </li>
+        <li class="work-card">
+          <button
+            type="button"
+            class="work-media project-trigger"
+            data-project="akipad"
+            aria-haspopup="dialog"
+          >
+            <img
+              src="images/akipad.jpg"
+              alt="AkiPad V1 CAD model — six keys, dual encoders, and OLED cutout"
+              width="1000"
+              height="1000"
+            />
+            <span class="work-media__caption">
+              <span class="work-tile__label">AkiPad V1</span>
+              <span class="work-tile__meta">PCB · KiCAD · KMK</span>
+            </span>
+          </button>
+        </li>
+        <li class="work-card">
+          <button
+            type="button"
+            class="work-media work-media--signbridge project-trigger"
+            data-project="signbridge"
+            aria-haspopup="dialog"
+          >
+            <img
+              src="images/signbridge.jpg"
+              alt="SignBridge 3D-printed yellow ASL glasses with forward camera module"
+              width="1000"
+              height="1000"
+            />
+            <span class="work-media__caption">
+              <span class="work-tile__label">SignBridge</span>
+              <span class="work-tile__meta">ASL · CV · HackED 2026</span>
+            </span>
+          </button>
+        </li>
+        <li class="work-card">
+          <button
+            type="button"
+            class="work-media work-media--syllasync project-trigger"
+            data-project="syllasync"
+            aria-haspopup="dialog"
+          >
+            <img
+              src="images/syllasync.svg"
+              alt="Sylla Sync — Google Sheets assignment tracker output"
+              width="1000"
+              height="1000"
+            />
+            <span class="work-media__caption">
+              <span class="work-tile__label">Sylla Sync</span>
+              <span class="work-tile__meta">Canvas · Python · Sheets</span>
+            </span>
+          </button>
+        </li>
+        <li class="work-card">
+          <button
+            type="button"
+            class="work-media project-trigger"
+            data-project="website"
+            aria-haspopup="dialog"
+          >
+            <img
+              src="images/about-placeholder.svg"
+              alt="Personal Website — AS monogram"
+              width="1000"
+              height="1000"
+            />
+            <span class="work-media__caption">
+              <span class="work-tile__label">Personal Website</span>
+              <span class="work-tile__meta">HTML · CSS · JS</span>
+            </span>
+          </button>
+        </li>
+        <li class="work-card">
+          <a
+            class="work-tile work-tile--3"
+            href="https://github.com/Akileash/ENCMP-Flashcards"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="work-tile__label">ENCMP Flashcards</span>
+            <span class="work-tile__meta">223 cards · UAlberta</span>
+          </a>
+        </li>
+        <li class="work-card">
+          <a
+            class="work-tile work-tile--6"
+            href="https://github.com/Akileash/MathTools-for-ENCMP-Contest"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="work-tile__label">MathTools</span>
+            <span class="work-tile__meta">ENCMP Contest</span>
+          </a>
+        </li>
+        <li class="work-card">
+          <a class="work-tile work-tile--4" href="about.html">
+            <span class="work-tile__label">Aecon · Jansen</span>
+            <span class="work-tile__meta">Project Coordinator Co-op</span>
+          </a>
+        </li>
+        <li class="work-card">
+          <a class="work-tile work-tile--5" href="about.html">
+            <span class="work-tile__label">P&amp;ID / Isometrics</span>
+            <span class="work-tile__meta">SmartPlant · Bluebeam</span>
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <div
+      id="project-modal"
+      class="project-modal"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="project-modal-title"
+    >
+      <div class="project-modal__backdrop" data-close-modal></div>
+      <div class="project-modal__box">
+        <button
+          type="button"
+          class="project-modal__close"
+          data-close-modal
+          aria-label="Close"
+        >
+          ×
+        </button>
+        <h2 id="project-modal-title" class="project-modal__title"></h2>
+        <p class="project-modal__text"></p>
+        <div class="project-modal__links"></div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

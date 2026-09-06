@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" role="img" aria-label="Google Sheets Masterlist mockup">
+  <rect width="920" height="420" rx="16" fill="#f8fafc"/>
+  <rect x="16" y="16" width="888" height="388" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+
+  <rect x="16" y="16" width="888" height="44" rx="12" fill="#0f9d58"/>
+  <text x="36" y="44" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Assignment Tracker  Masterlist</text>
+
+  <rect x="32" y="76" width="856" height="28" fill="#e8f0fe"/>
+  <text x="48" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">STATUS</text>
+  <text x="148" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">DUE DATE</text>
+  <text x="268" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">CLASS</text>
+  <text x="388" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">TYPE</text>
+  <text x="488" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">ASSIGNMENT</text>
+  <text x="708" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">DAYS UNTIL DUE</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">
+    <rect x="32" y="108" width="856" height="34" fill="#ffffff"/>
+    <text x="48" y="130">Not Started</text>
+    <text x="148" y="130">09/17/2026</text>
+    <text x="268" y="130">MATH 201</text>
+    <text x="388" y="130">Homework</text>
+    <text x="488" y="130">HW1</text>
+    <text x="708" y="130" fill="#15803d" font-weight="700">15</text>
+
+    <rect x="32" y="142" width="856" height="34" fill="#f8fafc"/>
+    <text x="48" y="164">In Progress</text>
+    <text x="148" y="164">10/09/2026</text>
+    <text x="268" y="164">MATH 201</text>
+    <text x="388" y="164">Exam</text>
+    <text x="488" y="164">Midterm 1</text>
+    <text x="708" y="164" fill="#b45309" font-weight="700">37</text>
+
+    <rect x="32" y="176" width="856" height="34" fill="#ffffff"/>
+    <text x="48" y="198">Not Started</text>
+    <text x="148" y="198">09/24/2026</text>
+    <text x="268" y="198">ECE 202</text>
+    <text x="388" y="198">Homework</text>
+    <text x="488" y="198">Lab 2</text>
+    <text x="708" y="198" fill="#15803d" font-weight="700">22</text>
+
+    <rect x="32" y="210" width="856" height="34" fill="#f8fafc"/>
+    <text x="48" y="232">Complete</text>
+    <text x="148" y="232">09/05/2026</text>
+    <text x="268" y="232">ENGG 299</text>
+    <text x="388" y="232">Reading</text>
+    <text x="488" y="232">Orientation quiz</text>
+    <text x="708" y="232" fill="#dc2626" font-weight="700">3</text>
+  </g>
+
+  <rect x="32" y="268" width="300" height="108" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="48" y="294" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">Synced by Sylla Sync</text>
+  <text x="48" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">" Columns BH written automatically</text>
+  <text x="48" y="336" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">" Column D feeds formula columns</text>
+  <text x="48" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">" Manual status edits preserved</text>
+</svg>
