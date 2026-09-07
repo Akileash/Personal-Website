@@ -4,10 +4,10 @@
   --ink-muted: #4a4a4a;
   --brand: #3f4f42;
   --border: #ebe6dc;
-  --pad: clamp(1.5rem, 8vw, 6.5rem);
+  --pad: clamp(1.5rem, 7vw, 5.5rem);
   --max: 1500px;
   --about-max: 42rem;
-  --work-max: 980px;
+  --work-max: 1120px;
   --header-h: 5.25rem;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --font-ui: "Poppins", system-ui, sans-serif;
@@ -59,7 +59,7 @@ button {
   cursor: pointer;
 }
 
-/* ——— Header ——— */
+/* --- Header --- */
 .site-header {
   position: sticky;
   top: 0;
@@ -134,7 +134,7 @@ button {
   }
 }
 
-/* ——— Home hero ——— */
+/* --- Home hero --- */
 .page-home {
   min-height: calc(100vh - var(--header-h));
 }
@@ -168,7 +168,7 @@ button {
   }
 }
 
-/* ——— About ——— */
+/* --- About --- */
 .page-about {
   padding: clamp(2rem, 6vw, 4rem) var(--pad) clamp(4rem, 10vw, 6.5rem);
 }
@@ -240,17 +240,19 @@ button {
   }
 }
 
-/* ——— Work grid ——— */
+/* --- Work grid --- */
 .page-work {
-  padding: clamp(2.5rem, 7vw, 4.5rem) var(--pad) clamp(4rem, 10vw, 6.5rem);
+  padding: clamp(3.5rem, 8vw, 5.75rem) var(--pad) clamp(4.5rem, 11vw, 7rem);
   max-width: var(--work-max);
+  width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .work-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: clamp(1rem, 2.4vw, 1.65rem);
+  gap: clamp(0.9rem, 1.6vw, 1.25rem);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -310,6 +312,8 @@ button {
   flex-direction: column;
   justify-content: flex-end;
   gap: 0.35rem;
+  aspect-ratio: 1;
+  width: 100%;
   padding: clamp(1rem, 3vw, 1.5rem);
   color: #f7f7f7;
   transition: transform 0.55s var(--ease), filter 0.35s ease;
@@ -397,10 +401,28 @@ button.work-tile {
   padding: clamp(0.85rem, 2.5vw, 1.25rem);
   color: #f7f7f7;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.72));
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.35s var(--ease), transform 0.35s var(--ease);
+  pointer-events: none;
+}
+
+.work-media:hover .work-media__caption,
+.work-media:focus-visible .work-media__caption,
+.work-media:focus-within .work-media__caption {
+  opacity: 1;
+  transform: none;
 }
 
 .work-media .work-tile__meta {
   color: #f0f0f0;
+}
+
+@media (hover: none) {
+  .work-media__caption {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 button.work-media {
@@ -411,7 +433,7 @@ button.work-media {
   cursor: pointer;
 }
 
-/* ——— Project modal ——— */
+/* --- Project modal --- */
 .project-modal {
   position: fixed;
   inset: 0;
@@ -561,7 +583,7 @@ button.work-media {
   }
 }
 
-/* ——— Resume ——— */
+/* --- Resume --- */
 .page-resume {
   padding: clamp(2rem, 6vw, 4rem) var(--pad) clamp(4rem, 10vw, 6.5rem);
 }
@@ -709,7 +731,7 @@ button.work-media {
   }
 }
 
-/* ——— Contact ——— */
+/* --- Contact --- */
 .page-contact {
   padding: clamp(2.5rem, 8vw, 5.5rem) var(--pad) clamp(4rem, 12vw, 7rem);
 }
@@ -768,7 +790,7 @@ button.work-media {
   opacity: 0.65;
 }
 
-/* ——— Photography ——— */
+/* --- Photography --- */
 .page-photo {
   padding: clamp(1.5rem, 4vw, 2.5rem) var(--pad) clamp(3rem, 8vw, 5rem);
   max-width: var(--max);

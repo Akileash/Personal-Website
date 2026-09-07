@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projects — Akileash Saravanan</title>
+    <title>Projects - Akileash Saravanan</title>
     <meta
       name="description"
-      content="Projects by Akileash Saravanan — Sylla Sync, AkiPad, SignBridge, and more."
+      content="Projects by Akileash Saravanan - Sylla Sync, AkiPad, SignBridge, and more."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,39 +35,10 @@
         <li class="work-card">
           <button
             type="button"
-            class="work-tile work-tile--7 project-trigger"
-            data-project="centremass"
-            aria-haspopup="dialog"
-          >
-            <span class="work-tile__label">Centre Mass</span>
-            <span class="work-tile__meta">In progress · PID · Robotics</span>
-          </button>
-        </li>
-        <li class="work-card">
-          <button
-            type="button"
-            class="work-media project-trigger"
-            data-project="akipad"
-            aria-haspopup="dialog"
-          >
-            <img
-              src="images/akipad.jpg"
-              alt="AkiPad V1 CAD model — six keys, dual encoders, and OLED cutout"
-              width="1000"
-              height="1000"
-            />
-            <span class="work-media__caption">
-              <span class="work-tile__label">AkiPad V1</span>
-              <span class="work-tile__meta">PCB · KiCAD · KMK</span>
-            </span>
-          </button>
-        </li>
-        <li class="work-card">
-          <button
-            type="button"
             class="work-media work-media--signbridge project-trigger"
             data-project="signbridge"
             aria-haspopup="dialog"
+            aria-label="SignBridge - ASL, computer vision, HackED 2026"
           >
             <img
               src="images/signbridge.jpg"
@@ -84,13 +55,34 @@
         <li class="work-card">
           <button
             type="button"
+            class="work-media project-trigger"
+            data-project="akipad"
+            aria-haspopup="dialog"
+            aria-label="AkiPad V1 - PCB, KiCAD, KMK"
+          >
+            <img
+              src="images/akipad.jpg"
+              alt="AkiPad V1 CAD model - six keys, dual encoders, and OLED cutout"
+              width="1000"
+              height="1000"
+            />
+            <span class="work-media__caption">
+              <span class="work-tile__label">AkiPad V1</span>
+              <span class="work-tile__meta">PCB · KiCAD · KMK</span>
+            </span>
+          </button>
+        </li>
+        <li class="work-card">
+          <button
+            type="button"
             class="work-media work-media--syllasync project-trigger"
             data-project="syllasync"
             aria-haspopup="dialog"
+            aria-label="Sylla Sync - Canvas, Python, Sheets"
           >
             <img
               src="images/syllasync.jpg"
-              alt="Sylla Sync — Canvas to PDF to dashboard to Discord workflow"
+              alt="Sylla Sync - Canvas to PDF to dashboard to Discord workflow"
               width="1000"
               height="1000"
             />
@@ -103,13 +95,26 @@
         <li class="work-card">
           <button
             type="button"
+            class="work-tile work-tile--7 project-trigger"
+            data-project="centremass"
+            aria-haspopup="dialog"
+            aria-label="Centre Mass - in progress, PID, robotics"
+          >
+            <span class="work-tile__label">Centre Mass</span>
+            <span class="work-tile__meta">In progress · PID · Robotics</span>
+          </button>
+        </li>
+        <li class="work-card">
+          <button
+            type="button"
             class="work-media project-trigger"
             data-project="website"
             aria-haspopup="dialog"
+            aria-label="Personal Website - HTML, CSS, JS"
           >
             <img
               src="images/about-placeholder.svg"
-              alt="Personal Website — AS monogram"
+              alt="Personal Website - AS monogram"
               width="1000"
               height="1000"
             />
@@ -120,15 +125,13 @@
           </button>
         </li>
         <li class="work-card">
-          <a class="work-tile work-tile--4" href="about.html">
+          <a
+            class="work-tile work-tile--4"
+            href="resume.html"
+            aria-label="Aecon Jansen - Project Coordinator Co-op"
+          >
             <span class="work-tile__label">Aecon · Jansen</span>
             <span class="work-tile__meta">Project Coordinator Co-op</span>
-          </a>
-        </li>
-        <li class="work-card">
-          <a class="work-tile work-tile--5" href="about.html">
-            <span class="work-tile__label">P&amp;ID / Isometrics</span>
-            <span class="work-tile__meta">SmartPlant · Bluebeam</span>
           </a>
         </li>
       </ul>

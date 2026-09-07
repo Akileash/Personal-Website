@@ -10,7 +10,7 @@
       image: "images/signbridge-full.jpg",
       imageAlt:
         "SignBridge 3D-printed yellow ASL glasses with forward camera module",
-      text: "Wearable smart glasses that translate American Sign Language into English in real time. Built at HackED 2026 with a 3D-printed frame, camera module, MediaPipe hand tracking, and a TensorFlow model—plus toggle logic for fingerspelling vs. full-word signs.",
+      text: "Wearable smart glasses that translate American Sign Language into English in real time. Built at HackED 2026 with a 3D-printed frame, camera module, MediaPipe hand tracking, and a TensorFlow model - plus toggle logic for fingerspelling vs. full-word signs.",
       links: [
         {
           label: "SignBridge",
@@ -26,7 +26,7 @@
       title: "AkiPad V1",
       image: "images/akipad-full.jpg",
       imageAlt:
-        "AkiPad V1 CAD model — six keys, dual encoders, and OLED cutout",
+        "AkiPad V1 CAD model - six keys, dual encoders, and OLED cutout",
       text: "A compact engineering macropad with 6 custom keys, dual rotary encoders, a 0.91\" OLED, and RGB NeoPixel lighting. Designed the PCB and case in KiCAD, wrote the firmware in KMK, and packaged files for fabrication.",
       links: [
         {
@@ -38,8 +38,8 @@
     website: {
       title: "Personal Website",
       image: "images/about-placeholder.svg",
-      imageAlt: "Personal Website — AS monogram",
-      text: "This portfolio site — a minimal multi-page layout with About, Projects, Contact, and Photography. Built with HTML, CSS, and JavaScript, including project detail popups and a responsive serif header.",
+      imageAlt: "Personal Website - AS monogram",
+      text: "This portfolio site - a minimal multi-page layout with About, Projects, Contact, and Photography. Built with HTML, CSS, and JavaScript, including project detail popups and a responsive serif header.",
       links: [
         {
           label: "Open site",
@@ -52,8 +52,8 @@
       title: "Sylla Sync",
       image: "images/syllasync-full.jpg",
       imageAlt:
-        "Sylla Sync — Canvas to PDF to dashboard to Discord workflow",
-      text: "Python automation tool that consolidates university coursework from Canvas LMS and syllabus PDFs into a single assignment tracker — exported to Google Sheets or Excel, with an optional Discord weekly digest. Pulls Canvas assignments, auto-downloads syllabus PDFs, parses deadlines with regex and Gemini AI fallback, and smart-merges into a tracker without wiping manual progress.",
+        "Sylla Sync - Canvas to PDF to dashboard to Discord workflow",
+      text: "Python automation tool that consolidates university coursework from Canvas LMS and syllabus PDFs into a single assignment tracker - exported to Google Sheets or Excel, with an optional Discord weekly digest. Pulls Canvas assignments, auto-downloads syllabus PDFs, parses deadlines with regex and Gemini AI fallback, and smart-merges into a tracker without wiping manual progress.",
       links: [
         {
           label: "GitHub",
