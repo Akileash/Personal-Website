@@ -377,12 +377,12 @@ button.work-tile {
 }
 
 .work-media--syllasync {
-  background: #f0f4f8;
+  background: #0b1c3a;
 }
 
 .work-media--syllasync img {
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
 }
 
 .work-media__caption {
